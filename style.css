@@ -1,0 +1,67 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: beige;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: left;
+    margin-bottom: 40px;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+#brief-bio .sub-text {
+    margin-top: -20px;
+    font-size: medium;
+}
+
+.intro {
+    text-align: left;
+}
+.intro p {
+    font-size: 1.1em;
+}
+picture h2 {
+    text-align: center;
+}
+picture img {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+.video-container {
+    text-align: center;
+    margin: 40px 0;
+}
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.audio-container {
+    text-align: center;
+    margin: 40px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}

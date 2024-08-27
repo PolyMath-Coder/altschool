@@ -1,0 +1,162 @@
+/*general style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(62, 87, 94);
+  }
+
+.banner {
+    margin: 30px 5%;
+    padding: 5px;
+}
+
+#index-banner {
+    color: white
+}
+
+.subheading {
+    margin: 0 5%;
+    font-size: x-large;
+    text-align: center;
+    color: white
+}
+
+.container {
+    margin: 0 10%;
+    padding: 5px;
+}
+
+#form-containeer h2 {
+    text-align: 50%;
+}
+
+h3 {
+    font-size: larger;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: larger;
+}
+
+footer {
+    background-color: rgb(180, 228, 241);
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    color: #767474;
+}
+
+
+/*additional style for index.html*/
+#index-nav {
+    margin: 5px 60% 5px 10%;
+    padding: 1%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#student-details li {
+    list-style:square;
+    padding: 3px;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+
+
+/*additional style for form.html*/
+#form-nav{
+    margin: 5px 5%;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+
+#form-nav a {
+    color: white;
+}
+
+
+#form-container{
+    margin: 10px 15%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+        @media screen and (max-width:768px){
+            margin: 5px 5%;
+            padding: 2%;
+        } 
+}
+
+.signup-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+        @media screen and (max-width:768px){
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#how-channel{
+    grid-column: span 2;
+}
+
+label{
+    font-size: large;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+input, select{
+    font-size: 16px; 
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+#form-container p{
+    font-size: medium;
+    text-align: left;
+}
+
+
+/*additional style for table.html*/
+.school-intro p {
+    font-size: medium;
+    text-align: center;
+    margin: 0 15px;
+}
+
+#table-container p {
+    font-size: medium;
+}
+
+table, .soe-table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+th, td {
+    border: 1px solid #393D3E;
+    vertical-align: top;
+}
