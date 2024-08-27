@@ -1,1 +1,3 @@
-AltSchool Africa 1st Semester Assignment Submission
+# AltSchool Africa 1st Semester Assignment Submission
+
+
